@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+    background-image: url(/images/mochaGrunge.png);
+    text-align: center;
+    color: rgb(0, 51, 63);
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px;
+    background-color: rgba(139, 201, 204, 0.7);
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    font-style: italic;
+    font-family: Dancing Script;
+}
+
+#my-logo {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#select-image {
+    background-color: rgba(105, 214, 250, 0.5);
+    padding: 10px;
+}
+
+#google-branding {
+    color: blue;
+    display: inline-block;
+}
+
+
+#search-results img {
+    margin: 20px;
+    border: 20px solid black;
+}
+
+#add-text {
+    background-color: rgba(54, 201, 194, 0.7);
+    padding: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#caption-text {
+    width: 600px;
+    text-align: center;
+}
+
+input {
+    font-size: 16px;
+}
+
+#style-caption {
+    background-color: rgba(32, 82, 84, 0.7);
+    padding: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#caption-controls {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#caption-controls input[type="number"] {
+    width: 50px;
+}
+
+#workspace {
+    width: 600px;
+    min-height: 300px;
+    border: 2px dashed black;
+    margin: 0 auto;
+    position: relative;
+}
+
+#workspace img {
+    width: 600px;
+}
+
+#caption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#caption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    width: 400px;
+    font-size: 32px;
+    color: red;
+    margin: 0;
+}
+
+#footer {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#twitter {
+    float: left;
+    margin: 15px;
+}
+
+#facebook {
+    float: left;
+    /*background-color: white;*/
+    width: 200px;
+    margin: 15px;
+}
+
+#social-networks {
+    width: auto;
+    display: inline-block;
+}
+
+footer img {
+    float: left;
+    margin-right: 40px;
+    width: 240px;
+}
+
+footer div {
+    margin: 10px 0;
+    font-size: 12px;
+}
